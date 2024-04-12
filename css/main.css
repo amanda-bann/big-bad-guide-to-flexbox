@@ -395,31 +395,37 @@ section#justify-content-section {
 
 /* align-items */
 section#align-items-section {
-  /* place your code here */
+  display: flex;
+  justify-content: center;
 }
 
 .align-items-center-parent-container {
-  /* place your code here */
+  display: flex;
+  align-items: center;
   justify-content: space-evenly;
 }
 
 .align-items-stretch-parent-container {
-  /* place your code here */
+  display: flex;
+  align-items: center;
   justify-content: space-evenly;
 }
 
 .align-items-baseline-parent-container {
-  /* place your code here */
+  display: flex;
+  align-items: center;
   justify-content: space-evenly;
 }
 
 .align-items-flex-start-parent-container {
-  /* place your code here */
+  display: flex;
+  align-items: center;
   justify-content: space-evenly;
 }
 
 .align-items-flex-end-parent-container {
-  /* place your code here */
+  display: flex;
+  align-items: center;
   justify-content: space-evenly;
 }
 
