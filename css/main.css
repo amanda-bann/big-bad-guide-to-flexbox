@@ -433,21 +433,25 @@ section#align-items-section {
 
 /* flex-wrap */
 section#flex-wrap-section {
-  /* place your code here */
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .flex-wrap-nowrap-parent-container {
-  /* place your code here */
+  display: flex;
+  flex-wrap: nowrap;
   justify-content: space-evenly;
 }
 
 .flex-wrap-wrap-parent-container {
-  /* place your code here */
+  display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
 }
 
 .flex-wrap-wrap-reverse-parent-container {
-  /* place your code here */
+  display: flex;
+  flex-wrap: wrap-reverse;
   justify-content: space-evenly;
 }
 
