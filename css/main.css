@@ -459,51 +459,59 @@ section#flex-wrap-section {
 
 /* align-content */
 section#align-content-section {
-  /* place your code here */
+  display: flex;
+  align-content: center;
 }
 
 /* Fixed heights have been set in the .wrap-content-parent-container code blocks */
 
 .align-content-center-parent-container {
-  /* place your code here */
+  display: flex;
+  align-content: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
   height: 250px;
 }
 
 .align-content-space-between-parent-container {
-  /* place your code here */
+  display: flex;
+  align-content: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
   height: 250px;
 }
 
 .align-content-space-around-parent-container {
-  /* place your code here */
+  display: flex;
+  align-content: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
 
 .align-content-space-evenly-parent-container {
-  /* place your code here */
+  display: flex;
+  align-content: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
 
 .align-content-stretch-parent-container {
-  /* place your code here */
+  display: flex;
+  align-content: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
 
 .align-content-flex-start-parent-container {
-  /* place your code here */
+  display: flex;
+  align-content: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
 
 .align-content-flex-end-parent-container {
-  /* place your code here */
+  display: flex;
+  align-content: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
@@ -512,21 +520,26 @@ section#align-content-section {
 
 /* gap */
 section#gap-section {
-/* place your code here */
+  display: flex;
+  gap: 20px;
 }
 
-.gap-parent-container {
-  /* display: flex; */
+.gap-parent-container {isplay: flex;
+  gap: 20px;
+  display: flex;
+  gap: 20px;
   flex-wrap: wrap;
 }
 
 .row-gap-parent-container {
-  /* display: flex; */
+  display: flex;
+  gap: 20px;
   flex-wrap: wrap;
 }
 
 .column-gap-parent-container {
-  /* place your code here */
+  display: flex;
+  gap: 20px;
   flex-wrap: wrap;
 }
 
