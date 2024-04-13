@@ -524,7 +524,8 @@ section#gap-section {
   gap: 20px;
 }
 
-.gap-parent-container {isplay: flex;
+.gap-parent-container {
+  display: flex;
   gap: 20px;
   display: flex;
   gap: 20px;
@@ -533,13 +534,13 @@ section#gap-section {
 
 .row-gap-parent-container {
   display: flex;
-  gap: 20px;
+  row-gap: 20px;
   flex-wrap: wrap;
 }
 
 .column-gap-parent-container {
   display: flex;
-  gap: 20px;
+  column-gap: 20px;
   flex-wrap: wrap;
 }
 
@@ -547,41 +548,48 @@ section#gap-section {
 
 /* flex-direction section */
 section#flex-direction-section {
-  /* place your code here */
+  display: flex;
+  flex-direction: column;
 }
 
 .column-justify-content-center-parent-container {
-  /* place your code here */
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
 .column-justify-content-space-between-parent-container {
-  /* place your code here */
+  display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
 }
 
 .column-justify-content-space-around-parent-container {
-  /* place your code here */
+  display: flex;
+  flex-direction: column;
   justify-content: space-around;
   align-items: center;
 }
 
 .column-justify-content-space-evenly-parent-container {
-  /* place your code here */
+  display: flex;
+  flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
 }
 
 .column-justify-content-flex-start-parent-container {
-  /* place your code here */
+  display: flex;
+  flex-direction: column;
   justify-content: flex-start;
   align-items: center;
 }
 
 .column-justify-content-flex-end-parent-container {
-  /* place your code here */
+  display: flex;
+  flex-direction: column;
   justify-content: flex-end;
   align-items: center;
 }
