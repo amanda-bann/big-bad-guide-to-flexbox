@@ -598,36 +598,43 @@ section#flex-direction-section {
 
 /* flex-flow section */
 section#flex-flow-section {
-  /* place your code here */ 
+  display: flex;
+  flex-flow: row wrap; 
 }
 
 .flex-flow-row-nowrap-parent-container {
-  /* place your code here */
+  display: flex;
+  flex-flow: row nowrap;
   justify-content: space-evenly;
 }
 
 .flex-flow-row-wrap-parent-container {
-  /* place your code here */
+  display: flex;
+  flex-flow: row wrap;
   justify-content: space-evenly;
 }
 
 .flex-flow-row-wrap-reverse-parent-container {
-  /* place your code here */
+  display: flex;
+  flex-flow: row wrap-reverse;
   justify-content: space-evenly;
 }
 
 .flex-flow-column-nowrap-parent-container {
-  /* place your code here */
+  display: flex;
+  flex-flow: column nowrap;
   justify-content: space-evenly;
 }
 
 .flex-flow-column-wrap-parent-container {
-  /* place your code here */
+  display: flex;
+  flex-flow: column wrap;
   justify-content: space-evenly;
 }
 
 .flex-flow-column-wrap-reverse-parent-container {
-  /* place your code here */
+  display: flex;
+  flex-flow: column wrap-reverse;
   justify-content: space-evenly;
 }
 
